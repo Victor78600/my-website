@@ -142,7 +142,7 @@ h2{
 }
 
 .projets {
-  background-image: url(images/projets.jpg);
+  background-image: url(../images/projets.jpg);
   background-position: center;
   background-attachment: fixed;
   width: auto;
@@ -252,7 +252,7 @@ h2{
 }
 
 .voyage{
-  background-image: url(images/apotres.jpg);
+  background-image: url(../images/apotres.jpg);
   background-position: center;
   background-attachment: fixed;
   width: auto;
@@ -266,7 +266,7 @@ h2{
 }
 
 .cbp{
-  background-image: url(images/cbp1.jpg);
+  background-image: url(../images/cbp1.jpg);
   background-position: center;
   background-attachment: fixed;
   width: auto;
@@ -288,7 +288,7 @@ h2{
 }
 
 .limra{
-  background-image: url(images/limra.jpg);
+  background-image: url(../images/limra.jpg);
   background-position: center;
   background-attachment: fixed;
   width: auto;
@@ -305,7 +305,7 @@ h2{
 }
 
 .letudiant{
-  background-image: url(images/letudiant.jpg);
+  background-image: url(../images/letudiant.jpg);
   background-position: center;
   background-attachment: fixed;
   width: auto;
@@ -337,7 +337,7 @@ h2{
 }
 
 .ironhack{
-  background-image: url(images/ironhack.png);
+  background-image: url(../images/ironhack.png);
   background-position: center;
   background-attachment: fixed;
   width: auto;
@@ -354,7 +354,7 @@ h2{
 }
 
 .yschool{
-  background-image: url(images/yschool.jpg);
+  background-image: url(../images/yschool.jpg);
   background-position: center;
   background-attachment: fixed;
   width: auto;

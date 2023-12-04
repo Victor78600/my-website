@@ -75,7 +75,7 @@ function HomePage() {
                 <br/>
                 <br/>En outre, je suis constamment à l'affût des dernières tendances et évolutions technologiques, ce qui me permet de proposer des solutions innovantes et adaptées aux besoins spécifiques de chaque projet. Je suis également à l'aise en collaboration avec des équipes pluridisciplinaires, car je crois fermement à l'importance de la communication et de la coordination pour aboutir à des résultats de qualité.
             </p>
-            <a href="CV-Victor-DUVEAU.pdf" className="ctb">VOIR MON CV</a>
+            <a href="CV-Victor-DUVEAU.pdf" target="_blank" className="ctb">VOIR MON CV</a>
             </div>
             <img src="images/motivation.jpg" alt="Developpement web" />
         </div>
