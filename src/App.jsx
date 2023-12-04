@@ -1,33 +1,36 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { Route, Routes } from "react-router-dom";
 import './App.css'
+import HomePage from "./Pages/HomePage";
+import Navbar from './Components/Navbar/Navbar';
+import Footer from './Components/Footer/Footer'
+import Sportsconnect from "./Pages/Sportsconnect";
+import Bomberland from "./Pages/Bomberland";
+import Bonapp from "./Pages/Bonapp";
+import Voyage from "./Pages/Voyage";
+import Cbpexp from "./Pages/Cbpexp";
+import Limra from "./Pages/Limra";
+import Letudiant from "./Pages/Letudiant";
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+<>
+      <Navbar />
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/sportsconnect" element={<Sportsconnect />} />
+          <Route path="/bomberland" element={<Bomberland />} />
+          <Route path="/bonapp" element={<Bonapp />} />
+          <Route path="/voyages" element={<Voyage />} />
+          <Route path="/cbp" element={<Cbpexp />} />
+          <Route path="/limra" element={<Limra />} />
+          <Route path="/letudiant" element={<Letudiant />} />
+          <Route path="*" element={<h2>Error page</h2>} />
+        </Routes>
+        <Footer />
+
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   )
 }
