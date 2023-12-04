@@ -85,6 +85,7 @@ function HomePage() {
                 <div className="ironhacka">
                     <h2>Formations</h2>
                     <h3>IRONHACK (2023)</h3>
+                    <h4>Niveau bac+4 | Certification professionnelle de niveau 6 | </h4>
                     <p>
                     Mon programme de formation a compris l'apprentissage de JavaScript, HTML, CSS, Git, GitHub, ReactJS, NodeJS, ExpressJS, MongoDB, ainsi que la manipulation du DOM
                     </p>
