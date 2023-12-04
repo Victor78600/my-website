@@ -10,6 +10,7 @@ import Voyage from "./Pages/Voyage";
 import Cbpexp from "./Pages/Cbpexp";
 import Limra from "./Pages/Limra";
 import Letudiant from "./Pages/Letudiant";
+import Error from "./Pages/Error";
 
 function App() {
 
@@ -26,7 +27,7 @@ function App() {
           <Route path="/cbp" element={<Cbpexp />} />
           <Route path="/limra" element={<Limra />} />
           <Route path="/letudiant" element={<Letudiant />} />
-          <Route path="*" element={<h2>Error page</h2>} />
+          <Route path="*" element={<Error />} />
         </Routes>
         <Footer />
 

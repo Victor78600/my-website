@@ -67,7 +67,7 @@ function Bonapp() {
     Explorez, cuisinez et savourez !
     Découvrez la joie de cuisiner avec Bon App'. Lancez votre aventure culinaire aujourd'hui et dégustez les saveurs du monde. Bon appétit !
 </p>
-<img src="images/bonapp.png" alt="Photo Bonapp"/>
+<img src="images/bonapp.jpg" alt="Photo Bonapp"/>
 </div>
   )
 }

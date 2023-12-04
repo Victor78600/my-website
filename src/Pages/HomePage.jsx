@@ -4,6 +4,9 @@ import emailjs from '@emailjs/browser'
 const sendEmail = (e) => {
 e.preventDefault()
 emailjs.sendForm('service_24yznel', 'template_b64msu2', e.target, 'mAsbwAoeVks8dzWHv')
+nom.value = ''
+email.value= ''
+message.value = ''
 }
 
 function HomePage() {
@@ -47,7 +50,7 @@ function HomePage() {
                     </p>
                     <a href="/bonapp" className="ctc">VOIR PLUS</a>
                 </div>
-                <img src="images/bonapp.png" alt="Photo Bonapp"/>
+                <img src="images/bonapp.jpg" alt="Photo Bonapp"/>
             </div>
             <div className="bomberland">
                 <div className="bomberlanda">
@@ -57,7 +60,7 @@ function HomePage() {
                     </p>
                     <a href="/bomberland" className="ctc">VOIR PLUS</a>
                 </div>
-                <img src="images/bomb.png" alt="Photo Bomberland"/>
+                <img src="images/bomb.jpg" alt="Photo Bomberland"/>
             </div>
         </div>
      <div id="motivation" className="fondblanc">
@@ -191,7 +194,7 @@ techniques de programmation.</p>
         </div>
         <div className="form">
             <div className="forma">
-                <form onSubmit={sendEmail}>
+                <form method="get" onSubmit={sendEmail}>
                     <h3>Parlons de votre projet</h3>
                         <fieldset>
                         <label htmlFor="nom">Nom</label>
