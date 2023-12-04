@@ -811,5 +811,8 @@ line-height: 1.5em;
   body{
     background: linear-gradient(to right, #2e2e2e, #2e2e2e);
   }
-  
+
+  .ironhack{
+    height: 350px;
+  }
   }
