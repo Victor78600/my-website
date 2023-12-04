@@ -716,6 +716,36 @@ line-height: 1.5em;
   .experiences img{
     width: 650px;
   }
+
+  .yschool{
+    background-attachment:unset;
+  }
+
+  .ironhack{
+    background-attachment:unset;
+  }
+
+  .limra{
+    background-attachment:unset;
+  }
+
+  .letudiant{
+    background-attachment:unset;
+  }
+
+  .cbp{
+    background-attachment:unset;
+  }
+
+  .voyage{
+    background-attachment:unset;
+  }
+
+  .projets {
+    background-attachment:unset;
+  }
+
+
 }
 
 @media screen and (max-width: 800px){
