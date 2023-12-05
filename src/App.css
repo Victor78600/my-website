@@ -341,7 +341,7 @@ h2{
   background-position: center;
   background-attachment: fixed;
   width: auto;
-  height: 300px;
+  height: 350px;
   background-size: cover;
 }
 
@@ -805,6 +805,10 @@ line-height: 1.5em;
   height: 225px;
 }
 
+.ironhack{
+  height: 400px;
+}
+
 }
 
 @media screen and (max-width: 515px){
@@ -813,6 +817,7 @@ line-height: 1.5em;
   }
 
   .ironhack{
-    height: 350px;
+    height: 420px;
   }
+
   }

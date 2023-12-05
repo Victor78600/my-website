@@ -1,5 +1,6 @@
 import React from 'react'
 import emailjs from '@emailjs/browser'
+import { Link } from 'react-router-dom'
 
 const sendEmail = (e) => {
 e.preventDefault()
@@ -85,10 +86,11 @@ function HomePage() {
                 <div className="ironhacka">
                     <h2>Formations</h2>
                     <h3>IRONHACK (2023)</h3>
-                    <h4>Niveau bac+4 | Certification professionnelle de niveau 6 | </h4>
+                    <h4>Niveau bac+4 | Certification professionnelle de niveau 6</h4>
                     <p>
                     Mon programme de formation a compris l'apprentissage de JavaScript, HTML, CSS, Git, GitHub, ReactJS, NodeJS, ExpressJS, MongoDB, ainsi que la manipulation du DOM
                     </p>
+                    <Link to="https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/87434649">Cliquez ici</Link>
                 </div>
             </div>
         <div className="yschool">
