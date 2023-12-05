@@ -96,9 +96,9 @@ function HomePage() {
         <div className="yschool">
                 <div className="yschoola">
                     <h3>Yschool Troyes (2014 - 2018)</h3>
-                    <p>
-                        Master 2 : Business school
-                        Marketing International and Business Development
+                    <h4>
+                        Master 2 : Business school</h4>
+                      <p>  Marketing International and Business Development
                     </p>
                 </div>
             </div>
