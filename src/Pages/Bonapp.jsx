@@ -67,6 +67,7 @@ function Bonapp() {
     Explorez, cuisinez et savourez !
     Découvrez la joie de cuisiner avec Bon App'. Lancez votre aventure culinaire aujourd'hui et dégustez les saveurs du monde. Bon appétit !
 </p>
+<a href="https://bonapp2.netlify.app/" target="_blank"  className="ctc">Cliquez ici pour accéder au site</a>
 <img src="images/bonapp.jpg" alt="Photo Bonapp"/>
 </div>
   )
