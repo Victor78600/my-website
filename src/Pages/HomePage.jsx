@@ -141,7 +141,7 @@ function HomePage() {
                     <h3>Assistant Manager Opérationnel et Marketing Évènementiel</h3>
                     <h4>
                         LIMRA EMEA (Barcelone, Espagne)
-                        <br/>Mai 2017 - Novembre 2017
+                        <br/>Janvier 2018 - Juin 2018
                     </h4>
                     <p>
                         Organisation de conférences et leur mise en place
