@@ -82,26 +82,6 @@ function HomePage() {
         </div>
     </div>
     <div className="experience">
-        <div className="ironhack">
-            <div className="ironhacka">
-                    <h2>Formations</h2>
-                    <h3>IRONHACK (2023)</h3>
-                    <h4>Niveau bac+4 | Certification professionnelle de niveau 6</h4>
-                    <p>
-                    Mon programme de formation a compris l'apprentissage de JavaScript, HTML, CSS, Git, GitHub, ReactJS, NodeJS, ExpressJS, MongoDB, ainsi que la manipulation du DOM
-                    </p>
-                    <Link to="https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/87434649">Cliquez ici</Link>
-            </div>
-        </div>
-        <div className="yschool">
-                <div className="yschoola">
-                    <h3>Yschool Troyes (2014 - 2018)</h3>
-                    <h4>
-                        Master 2 : Business school</h4>
-                      <p>  Marketing International and Business Development
-                    </p>
-                </div>
-            </div>
             <div className="abtasty">
                 <div className="abtasty_container">
                     <div className="abtastya">
@@ -187,6 +167,26 @@ function HomePage() {
                         le terrain, Etude de marché, Compte rendu
                     </p>
                     <a href="/letudiant" className="ctc">VOIR PLUS</a>
+                </div>
+            </div>
+            <div className="ironhack">
+            <div className="ironhacka">
+                    <h2>Formations</h2>
+                    <h3>IRONHACK (2023)</h3>
+                    <h4>Niveau bac+4 | Certification professionnelle de niveau 6</h4>
+                    <p>
+                    Mon programme de formation a compris l'apprentissage de JavaScript, HTML, CSS, Git, GitHub, ReactJS, NodeJS, ExpressJS, MongoDB, ainsi que la manipulation du DOM
+                    </p>
+                    <Link to="https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/87434649">Cliquez ici</Link>
+            </div>
+        </div>
+        <div className="yschool">
+                <div className="yschoola">
+                    <h3>Yschool Troyes (2014 - 2018)</h3>
+                    <h4>
+                        Master 2 : Business school</h4>
+                      <p>  Marketing International and Business Development
+                    </p>
                 </div>
             </div>
         </div>
