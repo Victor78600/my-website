@@ -16,7 +16,7 @@ function HomePage() {
         <div className="presentation">    
         <div>
         <h1>
-                Bonjour à tous ! Je suis<br/><strong>Victor Duveau, <br/>Développeur Web <br/>situé à Paris, France</strong>
+                Bonjour à tous ! Je suis<br/><strong>Victor Duveau, <br/>Développeur Frontend <br/>situé à Paris, France</strong>
             </h1>
             <p>
                 Passionné et créatif, spécialisé dans la conception d'applications web sur mesure pour améliorer l'expérience utilisateur et booster la performance commerciale.
@@ -70,7 +70,7 @@ function HomePage() {
             <h3> "Je m'engage à créer des expériences numériques innovantes et impactantes"
             </h3>
             <p>
-                En tant que développeur web, je suis un professionnel passionné par la création de sites web et d'applications interactives. Fort d'une solide expérience dans le domaine, je possède une expertise approfondie des langages de programmation tels que HTML, CSS, JavaScript, ainsi que le frameworks populaire React. J'ai aussi acquis des compétences avancées en Node.js et Express.js. Pour la gestion de versions et le travail d'équipe, j'utilise Git et GitHub et pour la conception de bases de données, MongoDB.
+                En tant que développeur frontend, je suis un professionnel passionné par la création de sites web et d'applications interactives. Fort d'une solide expérience dans le domaine, je possède une expertise approfondie des langages de programmation tels que HTML, CSS, JavaScript, ainsi que le frameworks populaire React. J'ai aussi acquis des compétences avancées en Node.js et Express.js. Pour la gestion de versions et le travail d'équipe, j'utilise Git et GitHub et pour la conception de bases de données, MongoDB.
                 <br/>
                 <br/>Mon objectif est de concevoir des solutions digitales intuitives et esthétiques, tout en assurant une expérience utilisateur fluide et conviviale. J'ai développé des compétences en optimisation des performances, en intégration responsive pour une navigation optimale sur tous les appareils, ainsi qu'en SEO pour maximiser la visibilité des projets en ligne.
                 <br/>
@@ -121,6 +121,32 @@ function HomePage() {
                         Pendant une période de 17 mois, j'ai eu l'opportunité incroyable d'explorer diverses cultures et de vivre des aventures inoubliables à travers plusieurs pays...
                     </p>
                     <a href="/voyages" className="ctc">VOIR PLUS</a>
+                </div>
+            </div>
+            <div className="abtasty">
+                <div className="abtasty_container">
+                    <div className="abtastya">
+                        <h3>Développeur front-end (Technical Support Engineer)</h3>
+                        <h4>
+                            AB Tasty (Paris, France)
+                            <br/>Mars 2024 - Aujourd'hui
+                        </h4>
+                        <ul>
+                            <li>
+                                Développement et livraison de campagnes CRO (Conversion Rate Optimization) en JavaScript, HTML5 et CSS3 : blocs de recommandations produits, jeux d’activation, bannières promotionnelles, formulaires NPS, etc.
+                            </li>
+                            <li>
+                                Gestion et résolution de plus de 200 demandes de support liées à des campagnes clients, garantissant leur bon fonctionnement, leur compatibilité cross-browser et device, et accessibilité.                            </li>
+                            <li>
+                                Optimisation du code des scripts déployés sur les sites clients, réduisant les temps de chargement et améliorant les taux de conversion ainsi que la satisfaction utilisateur.
+                            </li>
+                            <li>
+                                Évaluation de la faisabilité des demandes clients, en conciliant contraintes techniques, besoins métier et attentes utilisateurs.
+                            </li>
+                            <li>...</li>
+                        </ul>
+                        <a href="/abtasty" className="ctc">VOIR PLUS</a>
+                    </div>
                 </div>
             </div>
             <div className="cbp">

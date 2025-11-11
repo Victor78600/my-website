@@ -7,6 +7,7 @@ import Sportsconnect from "./Pages/Sportsconnect";
 import Bomberland from "./Pages/Bomberland";
 import Bonapp from "./Pages/Bonapp";
 import Voyage from "./Pages/Voyage";
+import Abtasty from "./Pages/Abtasty";
 import Cbpexp from "./Pages/Cbpexp";
 import Limra from "./Pages/Limra";
 import Letudiant from "./Pages/Letudiant";
@@ -24,6 +25,7 @@ function App() {
           <Route path="/bomberland" element={<Bomberland />} />
           <Route path="/bonapp" element={<Bonapp />} />
           <Route path="/voyages" element={<Voyage />} />
+          <Route path="/abtasty" element={<Abtasty />} />
           <Route path="/cbp" element={<Cbpexp />} />
           <Route path="/limra" element={<Limra />} />
           <Route path="/letudiant" element={<Letudiant />} />
