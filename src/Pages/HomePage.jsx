@@ -80,10 +80,10 @@ function HomePage() {
             </div>
             <img src="images/motivation.jpg" alt="Developpement web" />
         </div>
-     </div>
-        <div className="experience">
+    </div>
+    <div className="experience">
         <div className="ironhack">
-                <div className="ironhacka">
+            <div className="ironhacka">
                     <h2>Formations</h2>
                     <h3>IRONHACK (2023)</h3>
                     <h4>Niveau bac+4 | Certification professionnelle de niveau 6</h4>
@@ -91,8 +91,8 @@ function HomePage() {
                     Mon programme de formation a compris l'apprentissage de JavaScript, HTML, CSS, Git, GitHub, ReactJS, NodeJS, ExpressJS, MongoDB, ainsi que la manipulation du DOM
                     </p>
                     <Link to="https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/87434649">Cliquez ici</Link>
-                </div>
             </div>
+        </div>
         <div className="yschool">
                 <div className="yschoola">
                     <h3>Yschool Troyes (2014 - 2018)</h3>
@@ -102,30 +102,13 @@ function HomePage() {
                     </p>
                 </div>
             </div>
-            <div className="voyage">
-                <div className="voyagea">
-                    <h2>
-                        Expériences
-                    </h2>
-                    <p className="soustitre">Voici une liste de mes différentes expériences</p>
-                    <h3>
-                        Voyage autour du monde 
-                    </h3>
-                    <h4>
-                        Brésil et Argentine (3 mois)
-                        <br/> Australie (Working Holiday Visa - 11 mois) 
-                        <br/>Thaïlande, Laos, Vietnam et Philippines (3 mois)
-                        <br/>Janvier 2022 - Juin 2023
-                    </h4>
-                    <p>
-                        Pendant une période de 17 mois, j'ai eu l'opportunité incroyable d'explorer diverses cultures et de vivre des aventures inoubliables à travers plusieurs pays...
-                    </p>
-                    <a href="/voyages" className="ctc">VOIR PLUS</a>
-                </div>
-            </div>
             <div className="abtasty">
                 <div className="abtasty_container">
                     <div className="abtastya">
+                        <h2>
+                            Expériences
+                        </h2>
+                        <p className="soustitre">Voici une liste de mes différentes expériences</p>
                         <h3>Développeur front-end (Technical Support Engineer)</h3>
                         <h4>
                             AB Tasty (Paris, France)
@@ -147,6 +130,23 @@ function HomePage() {
                         </ul>
                         <a href="/abtasty" className="ctc">VOIR PLUS</a>
                     </div>
+                </div>
+            </div>
+            <div className="voyage">
+                <div className="voyagea">
+                    <h3>
+                        Voyage autour du monde 
+                    </h3>
+                    <h4>
+                        Brésil et Argentine (3 mois)
+                        <br/> Australie (Working Holiday Visa - 11 mois) 
+                        <br/>Thaïlande, Laos, Vietnam et Philippines (3 mois)
+                        <br/>Janvier 2022 - Juin 2023
+                    </h4>
+                    <p>
+                        Pendant une période de 17 mois, j'ai eu l'opportunité incroyable d'explorer diverses cultures et de vivre des aventures inoubliables à travers plusieurs pays...
+                    </p>
+                    <a href="/voyages" className="ctc">VOIR PLUS</a>
                 </div>
             </div>
             <div className="cbp">
