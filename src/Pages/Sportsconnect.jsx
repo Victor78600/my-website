@@ -104,6 +104,9 @@ Style : HTML et CSS pour un design attrayant et convivial.
 <p>
 Le serveur gratuit peut prendre du temps avant de démarrer (1 ou 2 minutes)
 </p>
+<h2>
+Actuellement le serveur ne fonctionne pas
+</h2>
                     <a href="https://sportsconnect.netlify.app/" target="_blank"  className="ctc">Cliquez ici pour accéder au site</a>
                     <img src="images/sportsconnectWebsite.png" alt="Photo SportsConnect"/>
         </div>
