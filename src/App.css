@@ -243,6 +243,11 @@ h2{
   color: white;
 }
 
+.experience h4{
+  display: flex;
+  flex-direction: column;
+}
+
 .voyagea{
   padding: 50px;
   max-width: 1100px;
