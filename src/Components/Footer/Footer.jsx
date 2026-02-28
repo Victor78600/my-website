@@ -19,8 +19,8 @@ function Footer() {
                         <img src="images/instagram.png" alt="Logo instagram"/></a>
                         <a target="_blank" href="https://www.facebook.com/victor.duveau/" class="lien-icone">
                         <img src="images/facebook.png" alt="Logo facebook"/></a>
-                        <a target="_blank" href="https://twitter.com/" class="lien-icone">
-                        <img src="images/x.png" alt="Logo x"/></a>
+                        <a target="_blank" href="https://github.com/Victor78600" class="lien-icone">
+                        <img src="images/github_logo.webp" alt="Logo x"/></a>
                     </div>
                     <div>
                         <a href="mailto:vic.duveau@hotmail.fr">vic.duveau@hotmail.fr</a>

@@ -22,12 +22,9 @@ function HomePage() {
         <div>
           <h1>
             Bonjour à tous ! Je suis
-            <br />
-            <strong>
-              Victor Duveau, <br />
-              Développeur Frontend <br />
-              situé à Paris, France
-            </strong>
+            <span>Victor Duveau,</span>
+              <span>Développeur Frontend </span>
+              <span>situé à Paris, France</span>
           </h1>
           <p>
             Passionné et créatif, spécialisé dans la conception d'applications
@@ -56,7 +53,7 @@ function HomePage() {
                 lecture, la mise à jour et la suppression d'activités ou
                 d'utilisateurs, ainsi que la possibilité de créer des
                 commentaires, cette application vise à améliorer l'expérience de
-                la communauté sportive...{" "}
+                la communauté sportive...
               </p>
               <a href="/sportsconnect" className="ctc">
                 VOIR PLUS
@@ -103,7 +100,6 @@ function HomePage() {
         <div className="motivation">
           <div>
             <h3>
-              {" "}
               "Je m'engage à créer des expériences numériques innovantes et
               impactantes"
             </h3>
@@ -117,16 +113,16 @@ function HomePage() {
               Express.js. Pour la gestion de versions et le travail d'équipe,
               j'utilise Git et GitHub et pour la conception de bases de données,
               MongoDB.
-              <br />
-              <br />
+              </p>
+              <p>
               Mon objectif est de concevoir des solutions digitales intuitives
               et esthétiques, tout en assurant une expérience utilisateur fluide
               et conviviale. J'ai développé des compétences en optimisation des
               performances, en intégration responsive pour une navigation
               optimale sur tous les appareils, ainsi qu'en SEO pour maximiser la
               visibilité des projets en ligne.
-              <br />
-              <br />
+             </p>
+              <p>
               En outre, je suis constamment à l'affût des dernières tendances et
               évolutions technologiques, ce qui me permet de proposer des
               solutions innovantes et adaptées aux besoins spécifiques de chaque
@@ -161,6 +157,9 @@ function HomePage() {
                   Optimization) en JavaScript, HTML5 et CSS3 : blocs de
                   recommandations produits, jeux d’activation, bannières
                   promotionnelles, formulaires NPS, etc.
+                </li>
+                <li>
+                    Conception et développement d’un outil interne basé sur React et Express.js dédié au suivi et au calcul des OKR, à la gestion de tâches, à la création d’un répertoire de code partagé, ainsi qu’à l’intégration de nouvelles fonctionnalités évolutives.
                 </li>
                 <li>
                   Gestion et résolution de plus de 200 demandes de support liées

@@ -12,6 +12,9 @@ function abtasty() {
 Développement et livraison de plus de 250 campagnes de CRO (Conversion Rate Optimization) en JavaScript, HTML5 et CSS3 : blocs de recommandations produits, jeux d’activation, bannières promotionnelles, formulaires NPS, etc.
 </li>
 <li>
+Conception et développement d’un outil interne basé sur React et Express.js dédié au suivi et au calcul des OKR, à la gestion de tâches, à la création d’un répertoire de code partagé, ainsi qu’à l’intégration de nouvelles fonctionnalités évolutives.
+</li>
+<li>
 Collaboration étroite avec des clients internationaux, en anglais, pour concevoir et optimiser des expériences digitales à fort impact.
 </li>
 <li>
